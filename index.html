@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vineet Thakran Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/11a0ca663c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I am <span>Vineet Thakran</span>,<br> from India.</h1>
+            </div>
+        </div>
+
+    </div>
+    <!--------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am 21 years old and I am from Pataudi, Gurugram. Currently pursuing my Bachelor of Technology in Computer Science stream from SGT University, Gurugram. I have done my schooling from Maharishi Dayanand Senior Secondary School, Gadaipur, Gurugram.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designining Web App Interfaces</li>
+                            <li><span>Logo Design</span><br>Designining Logo for Companies</li>
+                            <li><span>Front End Web Development</span><br>Developing Websites using HTML, CSS and Javascript</li>
+                            <li><span>Window Application Development using Python</span><br>Developing applications like notepad, calculator etc. in a window application format.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>None</span><br>I haven't done any internship or job yet.</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>School</span><br>Senior Secondary from Maharishi Dayanand with 85.6% annual marks.<br>Secondary from Maharishi Dayanand with 93.5% annual marks.</li>
+                            <li><span>Graduation(pursuing) from SGT University</span><br>First Sem : 8.78/10 CGPA <br>Second Sem : 7.78/10 CGPA <br>Third Sem : 8.05/10 CGPA <br>Fourth Sem : 8.83/10 CGPA</li>
+                            <li><span>Certificates(online)</span><br>Front End Development-HTML <br>Front End Development-CSS <br>UI/UX Design <br>Advance Python Programming</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------services------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>I will develop the Front End of you website using HTML, CSS and Javascript.</p>
+                    <a href="#contact">Contact Me</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-pen-nib"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I will design a website, application etc. for you in Figma, Sketch or Canva. I will also do the Wireframing and Prototyping for you. </p>
+                    <a href="#contact">Contact Me</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-swatchbook"></i>
+                    <h2>Logo and Card Designing</h2>
+                    <p>I will design logo for you. I can also design Buisness Cards, Billboards, Birthday Cards, Greeting Cards etc. for you.</p>
+                    <a href="#contact">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------portfolio------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Grocery Store App</h3>
+                        <p>This is the design of an application which works like an online grocery store from where anyone can buy the groceries using that application. <br>Click on the below LINK ICON to see the figma design of that application.</p>
+                        <a href="https://www.figma.com/file/4cSf4BwAyCufnXHivThxga/Untitled?node-id=0%3A1"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Online Contract App</h3>
+                        <p>You can use this application for storing the data of what kind or contract you have or you want to apply. <br>Click on the below LINK ICON to see the figma design of that application.</p>
+                        <a href="https://www.figma.com/file/zxVUfG7gXUNltNrDvFPvZ2/Untitled?node-id=0%3A1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Github ID Link</h3>
+                        <p>Click on below LINK ICON to see more of my projects other than designing.</p>
+                        <a href="https://github.com/vineet005"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----Contact----->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>thakranvineet789@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>+91-9350069657(available on whatsapp)</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/_thakran_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/vineet-thakran-3b5063228/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email"  placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Write Your Mesaage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © Vineet Thakran, 2022</p>
+        </div>
+
+    </div>
+
+
+
+
+    <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+    </script>
+
+    <script>
+
+            var sidemeu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxnVASaPMk_YJ0X8CGk_-9FOdY1S5NQwjeNpQa6fqAkcUdj37CAom6u5fua2dETAGJg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
